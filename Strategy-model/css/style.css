@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif;
+  color: #313038;
+}
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #3C38F8 !important;
+}
+input[type=text]{
+  /* width: 9em; */
+  margin-left: 3px;
+  color: rgba(49, 48, 56, 0.3) ;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(49, 48, 56, 0.15);
+  box-shadow: 0px 0px 32px rgba(60, 56, 248, 0.05);
+}
+.sidenav-text{
+  color: rgba(49, 48, 56, 0.3);
+}
+.sidenav-text:nth-child(2){
+  margin-top: 30px;
+}
+.w-85{
+  width: 85%;
+}
+.c-h {
+  height: 100vh;
+}
+.navigation {
+  margin-top: 243px;
+}
+.primaryBackground{
+  background: #FFF;
+  overflow-x: hidden;
+}
+.secondaryBackground{
+  background: #F5F5FB;
+}
+.overviewnavigationactive {
+  border-left: 3px solid #3C38F8;
+  color: #3C38F8;
+}
+.search-bar{
+ width: 152px;
+ height: 40px;
+ background-color: #FFFFFF;
+}
+.task-bar{
+  width: 250px;
+  height: 50px;
+  background:  linear-gradient(0deg, #F5F5FE, #F5F5FE), rgba(60, 56, 248, 0.05);
+  box-shadow: 0px 4px 0px rgba(60, 56, 248, 0.16);
+  border-radius: 8px;
+}
+.startegy-text{
+  padding: 36px 21px;
+  padding-top: 32px;
+}
+.strategy-text2{
+  padding: 21px 21px;
+  /* padding-top: 32px; */
+}
+.startegy-bar{
+  background: rgba(60, 56, 248, 0.05);
+  border-radius: 4px;
+}
+.border1{
+  border-top: 3px solid #FFD056;
+  border-radius: 4px;
+}
+.border2{
+  border-top: 3px solid #FF7F56;
+  border-radius: 4px;
+}
+.border3{
+  border-top: 3px solid #4EC9E4;
+  border-radius: 4px;
+}
+.border4{
+  border-top: 3px solid #8256FF;
+  border-radius: 4px;
+}
+.border5{
+  border-top: 3px solid #419D20;
+  border-radius: 4px;
+}
+.border6{
+  border-top: 3px solid rgba(60, 56, 248, 0.3);
+  border-radius: 4px;
+}
+.img-pl-6{
+  padding-left: 60%;
+}
+.mt-7{
+  margin-top: 3em;
+}
+.templates{
+
+}
+@media only screen and (min-width: 1700px){
+  .task-bar{
+    width: 328px;
+  }
+  .mt-lg-17{
+    margin-top: 3em !important;
+  }
+  .mt-7{
+    margin-top: 7em;
+  }
+
+}
+@media only screen and  (min-width: 1600px){
+  .img-pl-6{
+    padding-left: 68%;
+  }
+}
+
+@media only screen and  (max-width: 1200px){
+
+}
